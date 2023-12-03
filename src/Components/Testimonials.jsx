@@ -58,8 +58,8 @@ const Testimonials = () => {
 
       {/* <marquee behavior="" direction="right">hih</marquee> */}
 
-      <Marquee direction="right" loop={100} autoFill={true} speed={1000} gradient={true} pauseOnHover={false}>
-        <div className="w-screen lg:w-1/5 mx-auto overflow-hidden my-10">
+      <Marquee direction="right" loop={0} autoFill={true} speed={30} gradient={true} pauseOnHover={false}>
+        <div className="w-screen mx-auto overflow-hidden my-10 lg:mt-32">
           <ul className={`flex transition-transform duration-1000 ease-in-out transform -translate-x-1/5 * ${currentIndex}`}>
             {items.map((item, index) => (
               <div key={index} className="md:w-1/2 w-full">

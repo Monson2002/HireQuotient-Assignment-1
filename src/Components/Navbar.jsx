@@ -26,17 +26,17 @@ const Navbar = () => {
           </div>
           <div className="menu ">
             <ol className="flex justify-center items-center font-sans text-lg">
-              <li className="px-4"><a href="http://">Features</a></li>
-              <li className="px-4"><a href="http://">FAQ</a></li>
-              <li className="px-4"><a href="http://">Pricing</a></li>
-              <li className="px-4"><a href="http://">Testimonials</a></li>
+              <li className="px-4 font-semibold hover:text-purple-600"><a href="http://">Features</a></li>
+              <li className="px-4 font-semibold hover:text-purple-600"><a href="http://">FAQ</a></li>
+              <li className="px-4 font-semibold hover:text-purple-600"><a href="http://">Pricing</a></li>
+              <li className="px-4 font-semibold hover:text-purple-600"><a href="http://">Testimonials</a></li>
               <div className="flex justify-stretch items-center">
                 <button className="text-black bg-white border-2 py-2 px-6 mx-6 focus:outline-none hover:border-black rounded-2xl text-lg font-bold font-sans w-fit text-center">Buy Template</button>
               </div>
             </ol>
           </div>
         </div>
-        <hr className={`h-2 w-screen ${icon === "cross" ? "bg-white" : "bg-[#fdf2ec]"} transition-all ease-in-out duration-1000`} />
+        <hr className={`h-2 ${icon === "cross" ? "bg-white" : "bg-[#fdf2ec]"} transition-all ease-in-out duration-1000`} />
       </div>
       <div className="lg:hidden">
         <div className={`p-4 flex justify-between items-center ${icon === "cross" ? "bg-white" : "bg-[#fdf2ec]"} transition-all ease-in-out duration-1000`}>

@@ -33,7 +33,8 @@ const Faqs = () => {
           </div>
         </div>
 
-        <div className="w-full px-4 py-24 lg:flex lg:justify-end lg:items-center">
+        {/* Large Screen */}
+        <div className="hidden w-full px-4 py-24 lg:flex lg:justify-end lg:items-center">
           <div className=" w-full max-w-md rounded-2xl bg-white p-2 flex flex-col justify-center items-end">
             <Disclosure>
               {({ open }) => (
@@ -101,6 +102,8 @@ const Faqs = () => {
             </Disclosure>
           </div>
         </div>
+
+        {/* Small Screen */}
         <div className="lg:hidden w-full pt-16">
           <div className="mx-auto my-2 lg:my-0 w-full lg:flex lg:justify-end lg:items-center max-w-md lg:max-w-none rounded-2xl bg-white">
             <Disclosure>
